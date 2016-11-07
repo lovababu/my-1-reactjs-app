@@ -5,6 +5,6 @@ My first ReactJS app.
 1. NodeJS
 
 ## Run.
- step into root directory, and use the below command to run.
+ step into root directory, and use the below command to run.  
  ``npm start``
  
