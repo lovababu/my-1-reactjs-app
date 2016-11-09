@@ -1,18 +1,18 @@
 {
-  "name": "1-reactjs-basics",
+  "name": "3-reatjs-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "npm run build",
-    "build": "webpack -d && webpack-dev-server --content-base src/ --inline --hot --history-api-fallback"
+    "build": "webpack -d && webpack-dev-server --content-base src/ --inline --hot",
+    "build:prod": "webpack -p"
   },
   "author": "Lovababu",
   "license": "ISC",
   "dependencies": {
     "react": "^15.3.2",
-    "react-dom": "^15.3.2",
-    "react-router": "^2.8.1"
+    "react-dom": "^15.3.2"
   },
   "devDependencies": {
     "babel-core": "^6.17.0",

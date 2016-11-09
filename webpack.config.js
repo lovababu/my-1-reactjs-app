@@ -4,11 +4,11 @@ var DIST_DIR = path.resolve(__dirname, "dist");
 var SRC_DIR = path.resolve(__dirname, "src");
 
 var config = {
-    entry: SRC_DIR + "/app-9/index.js",
+    entry: SRC_DIR + "/app-7/index.js",
     output: {
-        path: DIST_DIR + "/app-9",
+        path: DIST_DIR + "/app-7",
         filename: "bundle.js",
-        publicPath: "/app-9/"
+        publicPath: "/app-7/"
     },
     module: {
         loaders: [
